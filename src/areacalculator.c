@@ -20,12 +20,36 @@ void calculateareaoftriangle()
 
 void calculateareaofrectangle()
 {
+    printf("What's the base? ");
 
+    int base = 0;
+    scanf("%d", &base);
+
+    printf("What's the height? ");
+
+    int height = 0;
+    scanf("%d", &height);
+
+    int result = (base * height);
+
+    printf("Result: %d centimeters squared.", result);
 }
 
 void calculateareaofsquare()
 {
+    printf("What's the base? ");
 
+    int base = 0;
+    scanf("%d", &base);
+
+    printf("What's the height? ");
+
+    int height = 0;
+    scanf("%d", &height);
+
+    int result = (base * height);
+
+    printf("Result: %d centimeters squared.", result);
 }
 
 void getoptionselection()
