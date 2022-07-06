@@ -1,0 +1,1 @@
+gcc areacalculator.c -o "Area Calculator.exe"
