@@ -1,6 +1,33 @@
 #include <stdio.h>
 #include <Windows.h>
 
+void calculateareaoftriangle()
+{
+    printf("What's the base? ");
+
+    int base = 0;
+    scanf("%d", &base);
+
+    printf("What's the height? ");
+
+    int height = 0;
+    scanf("%d", &height);
+
+    int result = (base * height) / 2;
+
+    printf("Result: %d centimeters squared.", result);
+}
+
+void calculateareaofrectangle()
+{
+
+}
+
+void calculateareaofsquare()
+{
+
+}
+
 void getoptionselection()
 {
     printf("Select an option: ");
@@ -15,6 +42,7 @@ void getoptionselection()
     case 2:
         break;
     case 3:
+        calculateareaoftriangle();
         break;
     }
 }
